@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="draw()">
+<canvas id="sketch" width="1000" height="1000">
+</canvas>
+<script>
+function draw () {
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#FF0000";
+	context.beginPath();
+	context.arc(150, 150, 120, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#E00000";
+	context.beginPath();
+	context.arc(150, 150, 100, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#B80000";
+	context.beginPath();
+	context.arc(150, 150, 80, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#A00000";
+	context.beginPath();
+	context.arc(150, 150, 60, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#680000";
+	context.beginPath();
+	context.arc(150, 150, 40, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#400000";
+	context.beginPath();
+	context.arc(150, 150, 20, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#0000FF";
+	context.beginPath();
+	context.arc(400, 150, 120, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#0000CC";
+	context.beginPath();
+	context.arc(400, 150, 100, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#000099";
+	context.beginPath();
+	context.arc(400, 150, 80, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#000066";
+	context.beginPath();
+	context.arc(400, 150, 60, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#000033";
+	context.beginPath();
+	context.arc(400, 150, 40, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	
+	context.fillStyle = "#000000";
+	context.beginPath();
+	context.arc(400, 150, 20, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+} 
+	
+</script>
+</body>
+</html>

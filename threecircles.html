@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="draw()">
+<canvas id="sketch" width="300" height="300">
+</canvas>
+<script>
+function draw () {
+	var radius = prompt("Enter a radius");
+	var color = prompt("Enter a color");
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = color;
+	context.beginPath();
+	context.arc(100, 100, radius, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	var radius = prompt("Enter a radius");
+	var color = prompt("Enter a color");
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = color;
+	context.beginPath();
+	context.arc(100, 100, radius, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+	
+	var radius = prompt("Enter a radius");
+	var color = prompt("Enter a color");
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = color;
+	context.beginPath();
+	context.arc(100, 100, radius, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();	
+} 
+	
+</script>
+</body>
+</html>

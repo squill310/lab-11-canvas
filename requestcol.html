@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="draw()">
+<canvas id="sketch" width="1000" height="1000">
+</canvas>
+<script>
+function draw () {
+	var w = prompt ("How many circles in a column do you want?")
+	var cat = parseInt (w,10);
+	for (var i = 0; i < cat; i = i+1){
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#FF6600";
+
+	
+	context.beginPath();
+	context.arc((210)+(75), (150 * i) + (60), 30, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+}
+}	
+</script>
+</body>
+</html>

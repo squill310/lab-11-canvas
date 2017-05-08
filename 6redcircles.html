@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="draw()">
+<canvas id="sketch" width="300" height="300">
+</canvas>
+<script>
+function draw () {
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#FF0000";
+	context.beginPath();
+	context.arc(150, 150, 120, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#E00000";
+	context.beginPath();
+	context.arc(150, 150, 100, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#B80000";
+	context.beginPath();
+	context.arc(150, 150, 80, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#A00000";
+	context.beginPath();
+	context.arc(150, 150, 60, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#680000";
+	context.beginPath();
+	context.arc(150, 150, 40, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	context.fillStyle = "#400000";
+	context.beginPath();
+	context.arc(150, 150, 20, 0, 2 * Math.PI, true);
+	context.closePath();
+	context.fill();
+
+} 
+	
+</script>
+</body>
+</html>
